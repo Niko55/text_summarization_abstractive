@@ -1,15 +1,9 @@
 import tensorflow as tf
-import csv
 from nltk import word_tokenize
 import string
-import json, gzip
-from pandas.io.json import json_normalize
-import pandas as pd
-
+import json
 
 #####
-
-
 with open('processed.json') as file:
 
     for json_data in file:
